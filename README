@@ -1,0 +1,9 @@
+This program is designed to display how Combinatorial Explosion works in respect to a resturant menu.
+
+Note: The distribution of items in attributes produces a different graph 
+ie. Having 12 items in entrees would produce a different graph than having 12 items distributed evenly
+
+Requirements to run code:
+py -m pip install pyqt5
+py -m pip install matplotlib
+py -m pip install numpy
