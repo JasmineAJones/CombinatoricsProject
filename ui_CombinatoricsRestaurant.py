@@ -181,7 +181,7 @@ class Ui_MainWindow(object):
         self.Drinks.setText(_translate("MainWindow", "Drinks"))
         self.Plotbtn.setText(_translate("MainWindow", "Plot"))
         self.total.setText(_translate("MainWindow", "Total Combinations: 0"))
-        self.Combinatorics.setText(_translate("MainWindow", "Combinatorics Restaurant"))
+        self.Combinatorics.setText(_translate("MainWindow", "The Cheesecake Factory"))
         self.AppeBox.setText("Calamari \nFried Mozzarella")
         self.EntrBox.setText("Chicken Alfredo \nShrimp Carbonara")
         self.DessBox.setText("Tiramisu")
