@@ -7,7 +7,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import math
 
-
+plt.rc('xtick', labelsize=15)
+plt.rc('ytick', labelsize=15)
+plt.xlabel('Total Number of Entries')
+plt.ylabel('Total Number of Combinations')
 
 
 
@@ -15,6 +18,7 @@ import math
 class Ui_MainWindow(object):
 
     def plot(self):
+        
         plt.plot(self.x,self.y)
         plt.draw()
         plt.show()
